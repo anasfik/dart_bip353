@@ -1,0 +1,18 @@
+name: dart_bip353
+description: A Dart package to work with the [BIP353](https://bips.dev/353/), resolving payment details from a given address like `test@twelve.cash` and get the bol 12 offer, onchain address and lnurl...
+version: 0.8.0
+repository: https://github.com/anasfik/dart_bip353
+homepage: https://gwhyyy.com
+
+environment:
+  sdk: ^3.4.1
+
+# Add regular dependencies here.
+dependencies:
+  equatable: ^2.0.5
+  http: ^1.2.2
+  
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
